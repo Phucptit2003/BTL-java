@@ -69,7 +69,7 @@ public class ProductEditController extends HttpServlet {
 				} else if (item.getFieldName().equals("price")) {
 					product.setPrice(Long.parseLong(item.getString()));
 				} else if (item.getFieldName().equals("image")) {
-					if (item.getSize() > 0) {// neu co file d
+					if (item.getSize() > 0) {
 						final String dir = "F:\\upload";
 						String originalFileName = item.getName();
 						int index = originalFileName.lastIndexOf(".");
