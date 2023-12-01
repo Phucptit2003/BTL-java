@@ -1,15 +1,3 @@
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/SQLTemplate.sql to edit this template
- */
-/**
- * Author:  phucl
- * Created: Oct 28, 2023
- */
-
-use master
-go
-
 create database WebApplication1
 go
 use WebApplication1
